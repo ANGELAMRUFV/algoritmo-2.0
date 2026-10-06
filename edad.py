@@ -1,8 +1,8 @@
-def edad(a):
-    if a>= 18:
+def puede_votar(edad):
+    if edad>= 18:
         return "puede votar"
     else:
         return "no puede votar"
-print(edad(20))
-print(edad(15))
+print(puede_votar(20))
+print(puede_votar(16))
 
